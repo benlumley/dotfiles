@@ -1,1 +1,1 @@
-/Users/ben/.vim/gvimrc
+.vim/gvimrc
