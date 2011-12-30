@@ -17,7 +17,7 @@ imap <M-k> <Esc>:m-2<CR>==gi
 vmap <M-j> :m'>+<CR>gv=gv
 vmap <M-k> :m-2<CR>gv=gv
 
-" means you can switch buggers without saving first
+" means you can switch buffers without saving first
 set hidden
 
 " no swap files, they irritate me, and macvim isn't like vim in that you can
