@@ -3,7 +3,7 @@
 " Lots is from http://nvie.com/posts/how-i-boosted-my-vim/
 
 " colour and font
-color railscasts+
+color railscasts2
 set guifont=Inconsolata:h10
 
 " map jj to esc for speedier typing 
