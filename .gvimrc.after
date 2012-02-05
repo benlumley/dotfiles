@@ -6,7 +6,7 @@
 color railscasts2
 set guifont=Inconsolata:h10
 set cursorline
-
+set textwidth=0
 
 " map jj to esc for speedier typing 
 :map! jj <esc>
