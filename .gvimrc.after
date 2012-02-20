@@ -101,6 +101,9 @@ set updatetime=1000
 " exuberant ctags version in /usr/local/bin
 let Tlist_Ctags_Cmd = '/usr/local/bin/ctags'
 
+" ctags rebuild binding
+nmap <leader>TT :!ctags --extra=+f -R *<CR><CR>
+
 " show function/method prototypes in the list
 let Tlist_Display_Prototype=1
 
