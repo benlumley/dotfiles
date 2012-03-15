@@ -11,7 +11,7 @@ ZSH_THEME="gallois"
 # CASE_SENSITIVE="true"
 
 # Comment this out to disable weekly auto-update checks
-# DISABLE_AUTO_UPDATE="true"
+DISABLE_AUTO_UPDATE="true"
 
 # Uncomment following line if you want to disable colors in ls
 # DISABLE_LS_COLORS="true"
@@ -31,5 +31,4 @@ source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
 export PATH=/usr/local/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin
 
-DISABLE_UPDATE_PROMPT=true
 
