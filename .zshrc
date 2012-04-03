@@ -28,7 +28,18 @@ plugins=(git git-flow)
 
 source $ZSH/oh-my-zsh.sh
 
+# shortcut command to run commands inside a vagrant vm via vagrant ssh -c
 v() { vagrant ssh -c "cd /vagrant; $*"; }
+
+# shortcut for firng up ssh agent
+start_ssh_agent {
+     echo "Initializing new SSH agent..."
+     /usr/bin/ssh-agent | sed 's/^echo/#echo/' > ${SSH_ENV}
+     echo succeeded
+     chmod 600 ${SSH_ENV}
+     . ${SSH_ENV} > /dev/null
+     /usr/bin/ssh-add;
+}
 
 # Customize to your needs...
 export PATH=/usr/local/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin
